@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital@1 & display=swap'); 
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    text-decoration:none; 
+    text-justify: auto; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+} 
+
+header{ 
+    background-color:rgb(126, 21, 21); 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 3vh 5vw; 
+    color: white; 
+} 
+
+header nav{ 
+    display: flex; 
+    align-items: center; 
+    gap: 3vw; 
+} 
+
+header nav a{ 
+    color: white; 
+    text-decoration: none; 
+} 
+
+body{ 
+    background-color: rgb(25, 10, 10); 
+    width: 100%; 
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
+main{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10vh 3vw; 
+    gap: 10vh; 
+} 
+
+h1 { 
+    color:rgb(234, 10, 10); 
+    border: 25 px; 
+    font-size: x-large; 
+    font-size: 350%; 
+} 
+
+.wrap{ 
+    width: 100vw; 
+    height: 100vh; 
+    display:flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: url(./imagen/2COZB7G72JDJ5IFTRXEPK57A5M.jpg); 
+    background-size: cover; 
+    background-position: center; 
+
+} 
+
+.wrap-text{ 
+    width: 50%; 
+    text-align: center; 
+    color:rgb(221, 199, 199); 
+} 
+
+.hero-button{ 
+    text-align:center; 
+    color: #ffffff; 
+    text-transform: uppercase; 
+    font-family: 'Aquawax-Light'; 
+    background-color: #ff0000; 
+    padding: 10px; 
+} 
+
+.container,.container1{ 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 35px; 
+    background-color: rgb(160, 6, 6); 
+    padding: 35px; 
+    border-radius: 15px; 
+} 
+
+.img1,.img3{ 
+margin-right: 15px; 
+border-radius: 15px; 
+width: 550px; 
+} 
+
+.img2,.img4{ 
+    margin-left: 15px; 
+    border-radius: 15px; 
+    width: 550px; 
+} 
+
+h3{ 
+    color:yellowgreen; 
+    border: 20px; 
+    font-size: xx-large; 
+    margin: 10px 10px; 
+} 
+
+.section-text{ 
+    text-align: justify; 
+    color: aliceblue; 
+} 
+
+h4{ 
+    color: blue; 
+    justify-content: baseline; 
+    font-size: xx-large; 
+    padding: 1.5rem; 
+    font-size: 24px; 
+} 
+
+h5{ 
+    color: rgba(176, 8, 98, 0.813); 
+    text-justify: auto; 
+    font-size:xx-large 
+} 
+
+main form{ 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 3vh; 
+ } 
+
+main form .inputContainer{  
+    width: 100%;  
+    display: flex;  
+    flex-direction: column;  
+    gap: 1vh;  
+    font-size: 18px; 
+    color: darkgreen;  
+}  
+
+main form .inputContainer input,select{  
+    border: none;  
+    border-bottom: 1px solid rgb(33, 33, 33);  
+    padding: 10px;  
+    font-size: 18px;  
+}  
+
+.btn-registrar{  
+    padding: 10px;  
+    background-color:rgb(33, 33, 33);  
+    border-radius: 5px;  
+    color: white;  
+    border:solid rgb(33, 33, 33) 1px;  
+    width: 170px;  
+    font-size: 18px;  
+}  
+
+.btn-registrar:hover{  
+    transition: 1s ease-in-out;  
+    color: rgb(33, 33, 33);  
+    background-color: white;  
+}  
+
+.contenedorUsuarios{  
+    display: flex;  
+    flex-wrap: wrap;  
+    width: 100%;  
+    gap: 30px;  
+    justify-content: center;  
+}  
+
+.card-user{  
+    padding: 10px;  
+    background-color: rgb(33, 33, 33);  
+    color: white;  
+    border-radius: 5px;  
+    width: 300px;  
+}  
+
+footer{ 
+    background-color:rgb(126, 21,21); 
+    padding: 3vh 5vw; 
+    text-align: center; 
+    color: white; 
+} 
+
+footer{ 
+    padding: 7vh 5vw; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+footer i{ 
+    font-size: 40px; 
+    justify-content: space-between; 
+} 
